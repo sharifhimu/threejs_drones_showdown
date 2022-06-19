@@ -6,7 +6,7 @@ import * as THREE from 'three';
 const Background = () => {
 
     const { gl } = useThree()
-    const texture = useLoader(THREE.TextureLoader, '/equrectengular4.jpg')
+    const texture = useLoader(THREE.TextureLoader, process.env.PUBLIC_URL + '/equrectengular4.jpg')
 
     const formatted = useMemo(() => 
         new THREE.WebGLCubeRenderTarget(

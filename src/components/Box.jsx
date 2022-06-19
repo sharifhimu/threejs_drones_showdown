@@ -6,7 +6,7 @@ import { useBox } from '@react-three/cannon';
 const Box = (props) => {
 
     // const ref = useRef()
-    const texture = useLoader( THREE.TextureLoader, '/colorchecker.png' )
+    const texture = useLoader( THREE.TextureLoader, process.env.PUBLIC_URL + '/colorchecker.png' )
 
     const [ref, api] = useBox(() => ({ mass: 1, ...props }) )
 

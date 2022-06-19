@@ -7,7 +7,7 @@ function Models(props) {
     
     const model = useLoader(
         GLTFLoader,
-        props.path
+        process.env.PUBLIC_URL + props.path
     )
 
     // console.log( 'model path', props.path, 'model ', model );
