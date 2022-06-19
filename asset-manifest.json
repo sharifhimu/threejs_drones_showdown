@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/threejs_drones_showdown/static/css/main.be18351d.css",
+    "main.js": "/threejs_drones_showdown/static/js/main.a059e2b0.js",
+    "static/js/787.c79c6c0e.chunk.js": "/threejs_drones_showdown/static/js/787.c79c6c0e.chunk.js",
+    "index.html": "/threejs_drones_showdown/index.html",
+    "main.be18351d.css.map": "/threejs_drones_showdown/static/css/main.be18351d.css.map",
+    "main.a059e2b0.js.map": "/threejs_drones_showdown/static/js/main.a059e2b0.js.map",
+    "787.c79c6c0e.chunk.js.map": "/threejs_drones_showdown/static/js/787.c79c6c0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be18351d.css",
+    "static/js/main.a059e2b0.js"
+  ]
+}
